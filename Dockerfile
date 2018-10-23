@@ -1,6 +1,6 @@
-FROM ruby:2.5.3-slim
+FROM ruby:2.5.3
 RUN apt-get update && apt-get install -y build-essential cmake
-RUN apt-get install -y libssl-dev
+
 # note that we need updated onceover and puppet-strings based on Gemfile for
 # real usage to score versions from git pending a couple of tickets being fixed -
 # this will do for now
