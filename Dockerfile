@@ -30,7 +30,8 @@ RUN gem install blockenspiel --version 0.5.0 && \
   gem install mocha --version 1.7.0 && \
   gem install multi_json --version 1.13.1 && \
   gem install multipart-post --version 2.0.0 && \
-  gem install onceover-codequality --version 0.3.0 && \
+  gem install pathspec -v 0.2.1 && \
+  gem install onceover-codequality && \
   gem install parallel --version 1.12.1 && \
   gem install parallel_tests --version 2.23.0 && \
   gem install pry --version 0.11.3 && \
